@@ -24,6 +24,11 @@ void draw()
     val = floor(random(390)) + 5;
     exportDocy.println(val);
   }
+  
+  exportDocx.flush();
+  exportDocy.flush();
+  exportDocx.close();
+  exportDocy.close();
   //delay(1000);
-  //exit();
+  exit();
 }
