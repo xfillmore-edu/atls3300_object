@@ -17,11 +17,13 @@ void draw()
   for (int i = 0; i < 100; i++)
   {
     // generate random x coordinate between 5 and 795
-    val = floor(random(790)) + 5;
+    //val = floor(random(790)) + 5;
+    val = floor(random(650)) + 5; // [5, 655)
     exportDocx.println(val);
     
     // generate random y coordinate between 5 and 395
-    val = floor(random(390)) + 5;
+    //val = floor(random(390)) + 5;
+    val = floor(random(620)) + 5; // [5, 625)
     exportDocy.println(val);
   }
   
