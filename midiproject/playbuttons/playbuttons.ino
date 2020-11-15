@@ -37,8 +37,6 @@ void loop() {
   //    digitalWrite(buzzer, HIGH);
   //  }
 
-
-
   //  for (int i=0; i<sizeof(buttons); i++) {
   //    buttonStates[i] = digitalRead(buttons[i]);
   //  }
@@ -52,8 +50,6 @@ void loop() {
   //    }
   //  }
 
-
-
   int key1 = digitalRead(2);
   int key2 = digitalRead(3);
   int key3 = digitalRead(4);
@@ -62,58 +58,25 @@ void loop() {
   int key6 = digitalRead(7);
   int key7 = digitalRead(8);
 
-  if (key1 == LOW) {
-    tone(buzzer, NOTE_C4);
-  }
-  else {
-    noTone(buzzer);
-  }
+  if (key1 == LOW) { tone(buzzer, NOTE_C4); }
+  else { noTone(buzzer); }
 
-  if (key2 == LOW) {
-    tone(buzzer, NOTE_D4);
-  }
-  else {
-    noTone(buzzer);
-  }
+  if (key2 == LOW) { tone(buzzer, NOTE_D4); }
+  else { noTone(buzzer); }
 
-  if (key3 == LOW) {
-    tone(buzzer, NOTE_E4);
-  }
-  else {
-    noTone(buzzer);
-  }
+  if (key3 == LOW) { tone(buzzer, NOTE_E4); }
+  else { noTone(buzzer); }
 
-  if (key4 == LOW) {
-    tone(buzzer, NOTE_F4);
-  }
-  else {
-    noTone(buzzer);
-  }
+  if (key4 == LOW) { tone(buzzer, NOTE_F4); }
+  else { noTone(buzzer); }
 
-  if (key5 == LOW) {
-    tone(buzzer, NOTE_G4);
-  }
-  else {
-    noTone(buzzer);
-  }
+  if (key5 == LOW) { tone(buzzer, NOTE_G4); }
+  else { noTone(buzzer); }
 
-  if (key6 == LOW) {
-    tone(buzzer, NOTE_A4);
-  }
-  else {
-    noTone(buzzer);
-  }
+  if (key6 == LOW) { tone(buzzer, NOTE_A4); }
+  else { noTone(buzzer); }
 
-  if (key7 == LOW) {
-    tone(buzzer, NOTE_B4);
-  }
-  else {
-    noTone(buzzer);
-  }
-
-
-
-
-
+  if (key7 == LOW) { tone(buzzer, NOTE_B4); }
+  else { noTone(buzzer); }
 
 }
