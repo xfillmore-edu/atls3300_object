@@ -13,7 +13,7 @@ int val;        // Data received from the serial port
 
 void setup() 
 {
-  size(200, 200);
+  size(700, 300);
   // I know that the first port in the serial list on my mac
   // is always my  FTDI adaptor, so I open Serial.list()[0].
   // On Windows machines, this generally opens COM1.
